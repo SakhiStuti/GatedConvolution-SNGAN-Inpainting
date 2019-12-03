@@ -2,8 +2,10 @@
 This is a pytorch implementation of "Free-Form Image Inpainting with Gated Convolution". It performs image inpainting for irregular masks. Contextual Attention has not be added yet. These results are without the attention layer.
 
 ## Some Results
-![GitHub Logo](https://github.com/SakhiStuti/GatedConvolution-SNGAN-Inpainting/blob/master/results/24.png)
-
+![Results](https://github.com/SakhiStuti/GatedConvolution-SNGAN-Inpainting/blob/master/results/24.png)
+![Results](https://github.com/SakhiStuti/GatedConvolution-SNGAN-Inpainting/blob/master/results/32.png)
+![Results](https://github.com/SakhiStuti/GatedConvolution-SNGAN-Inpainting/blob/master/results/44.png)
+![Results](https://github.com/SakhiStuti/GatedConvolution-SNGAN-Inpainting/blob/master/results/48.png)
 
 
 ## Pretrained Network
