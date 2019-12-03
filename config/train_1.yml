@@ -1,0 +1,46 @@
+#Dataset and Save Directory
+
+IMG_ROOT: C:/Users/stuti/Downloads/Data/train_256_places365standard/data_256
+VAL_IMG_ROOT: D:/STUTI/Research/Inpainting/DATA/Validation/val_256/ 
+LOG_DIR: train_1
+
+#Model
+MODEL_RESTORE: "latest_ckpt.pth.tar"
+
+#overall setting
+IMG_SHAPES: [128, 128]
+BATCH_SIZE: 16
+RANDOM_SEED: False
+PADDING: 'SAME'
+BATCH_NORM: True
+
+#random free_form settings
+MAXVERTEX: 5
+MAXANGLE: 4.0 #pi
+MAXLENGTH: 40
+MAXBRUSHWIDTH: 10
+RANDOM_FF_SETTING:
+    img_shape: [128,128]
+    mv: 2
+    ma: 4.0
+    ml: 7
+    mbw: 2
+
+# training
+NUM_GPUS: 1
+GPU_ID: 0  
+EPOCH: 50
+SUMMARY_FREQ: 50
+IMG_FREQ: 1000
+VAL_SUMMARY_FREQ: 5000
+SAVE_MODEL_FREQ: 5000
+VAL_IMG_FREQ : 1000
+LEARNING_RATE: 0.0001
+WEIGHT_DECAY: 0.0
+PRETRAIN: 
+
+# loss
+GAN_LOSS_ALPHA: 1 # dcgan: 0.0008, wgan: 0.0005, onegan: 0.001
+L1_LOSS_ALPHA: [1., 1.]
+
+
