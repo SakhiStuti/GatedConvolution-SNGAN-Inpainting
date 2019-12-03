@@ -8,9 +8,6 @@ This is a pytorch implementation of "Free-Form Image Inpainting with Gated Convo
 ![Results](https://github.com/SakhiStuti/GatedConvolution-SNGAN-Inpainting/blob/master/results/48.png)  
 Images from left to right - input image, course network output, fine network output, completed image, groundtruth
 
-## Pretrained Network
-You can download the pretrained network from 
-
 ## Training from scratch
 Train and Validation image roots can be changed in the train_1.yml file. Then you can train the network using the command-  
 python train.py
