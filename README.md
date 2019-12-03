@@ -3,6 +3,7 @@ This is a pytorch implementation of "Free-Form Image Inpainting with Gated Convo
 
 ## Some Results
 ![GitHub Logo](/results/23.png)
+Format: ![Alt Text](url)
 
 
 
